@@ -1,0 +1,64 @@
+body {
+    background-color: aqua;
+    font-size: 18px;
+}
+
+.block {
+    background: blue;
+    margin-bottom: 150px;
+}
+
+.conteoner {
+    max-width: 2100px;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 10px;
+}
+
+button:hover {
+    background: red;
+}
+
+button:active {
+    background: blueviolet;
+    color: aqua;
+}
+
+.slider {
+    width: 475px;
+    height: 620px;
+    border: 5px solid black;
+    margin: 0 auto;
+
+}
+
+.slider-line {
+    height: 620px;
+    width: 1888px;
+    background: orange;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+img {
+    padding: 5px;
+}
+
+/* .css-block {  
+    width: 150 px;
+    height: 10 px;
+    background-color: blueviolet;
+} 
+
+ .css-block-1 { 
+    margin-top: 250px;
+} */
